@@ -6,7 +6,7 @@ import './Skills.css'
 
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { skillCategories } from '../../data/skillsData'
-import { skillsImage, skillImageFunc } from '../../utils/skillsImage'
+import { skillsImage } from '../../utils/skillsImage'
 
 function Skills() {
     const { theme } = useContext(ThemeContext);

@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from '@mui/material/styles';
-import { FaPlay, FaCode } from 'react-icons/fa';
+import { FaPlay } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 import placeholder from '../../../assets/png/placeholder.png';
@@ -71,25 +71,6 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                             />
                         </Icon>
                     </IconButton>
-                    {/* <IconButton
-                        href={code}
-                        target='_blank'
-                        rel='noreferrer'
-                        aria-labelledby={`${name
-                            .replace(' ', '-')
-                            .toLowerCase()} ${name
-                            .replace(' ', '-')
-                            .toLowerCase()}-code`}
-                    >
-                        <Icon>
-                            <FaCode
-                                id={`${name
-                                    .replace(' ', '-')
-                                    .toLowerCase()}-code`}
-                                aria-label='Code'
-                            />
-                        </Icon>
-                    </IconButton> */}
                 </div>
             </div>
             <p

@@ -1,30 +1,30 @@
 export const experienceData = [
-    {
-        id: 1,
-        company: 'KeY2Moon Solutions',
-        jobtitle: 'Full Stack Engineer',
-        startYear: 'Feb 2023',
-        endYear: 'Present'
-    },
-    {
-        id: 2,
-        company: 'BEPRO',
-        jobtitle: 'Full Stack Engineer',
-        startYear: 'Jan 2021',
-        endYear: 'May 2023'
-    },
-    {
-        id: 3,
-        company: 'Zapier',
-        jobtitle: 'Full Stack Engineer',
-        startYear: 'Feb 2018',
-        endYear: 'Jan 2021'
-    },
-    {
-        id: 4,
-        company: 'Reddit, Inc',
-        jobtitle: 'Full Stack Engineer',
-        startYear: 'Jul 2014',
-        endYear: 'Oct 2017'
-    },
-]
+  {
+    id: 1,
+    company: "BlueScope",
+    jobtitle: "Staff Software Engineer",
+    startYear: "Feb 2024",
+    endYear: "Present",
+  },
+  {
+    id: 2,
+    company: "Meta",
+    jobtitle: "Senior Software Engineer",
+    startYear: "Aug 2020",
+    endYear: "Feb 2024",
+  },
+  {
+    id: 3,
+    company: "Hedera",
+    jobtitle: "Software Engineer",
+    startYear: "Jan 2018",
+    endYear: "Aug 2020",
+  },
+  {
+    id: 4,
+    company: "Scout & Cellar",
+    jobtitle: "Full Stack Engineer",
+    startYear: "Sep 2016",
+    endYear: "Jan 2018",
+  },
+];

@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 import { Box, Typography } from '@mui/material'
 import './Footer.css'
 import { ThemeContext } from '../../contexts/ThemeContext'
-import { headerData } from '../../data/headerData'
 
 function Footer() {
 
@@ -32,11 +31,10 @@ function Footer() {
                     gap: '0.5rem'
                 }}
             >
-                Copyright © {new Date().getFullYear()} Charalampos S.
+                Copyright © {new Date().getFullYear()} James Tran
             </Typography>
         </Box>
     )
 }
 
 export default Footer
-
