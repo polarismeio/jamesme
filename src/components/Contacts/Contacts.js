@@ -1,7 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { Snackbar, Alert, Box, Typography, Grid, TextField, Button, Link, Paper } from '@mui/material';
-// import CloseIcon from '@mui/icons-material/Close';
-// import axios from 'axios';
+import { Snackbar, Alert, Box, Typography, Grid, TextField, Button, Link } from '@mui/material';
 import isEmail from 'validator/lib/isEmail';
 import {
     FaTwitter, FaLinkedinIn, FaGithub, FaYoutube, FaBloggerB, FaRedditAlien, FaStackOverflow, FaCodepen, FaInstagram, FaGitlab, FaMediumM, FaWhatsapp, FaTelegramPlane,
@@ -61,20 +59,6 @@ function Contacts() {
 
         if (name && email && message) {
             if (isEmail(email)) {
-                const responseData = {
-                    name: name,
-                    email: email,
-                    message: message,
-                };
-
-                // axios.post(contactsData.sheetAPI, responseData).then((res) => {
-                //     setSuccess(true);
-                //     setErrMsg('');
-                //     setName('');
-                //     setEmail('');
-                //     setMessage('');
-                //     setOpen(false);
-                // });
             } else {
                 setErrMsg('Invalid email');
                 setOpen(true);

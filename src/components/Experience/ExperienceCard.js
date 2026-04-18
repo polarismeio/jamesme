@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import { ThemeContext } from '../../contexts/ThemeContext';
 
 import expImgWhite from '../../assets/svg/experience/expImgWhite.svg'
-import expImgBlack from '../../assets/svg/experience/expImgBlack.svg'
 
 import './Experience.css'
 

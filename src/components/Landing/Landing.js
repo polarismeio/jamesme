@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { Button } from '@mui/material';
 import { styled } from '@mui/material/styles';
@@ -21,28 +21,6 @@ function Landing() {
         linkedIn: <FaLinkedin className='landing--social' style={{ color: theme.secondary }} aria-label='LinkedIn' size={30} />,
         github: <FaGithub className='landing--social' style={{ color: theme.secondary }} aria-label='GitHub' size={30} />,
     };
-
-    const ResumeButton = styled(Button)(({ theme: muiTheme }) => ({
-        color: theme.primary,
-        borderRadius: '30px',
-        textTransform: 'inherit',
-        textDecoration: 'none',
-        width: '150px',
-        fontSize: '1rem',
-        fontWeight: '500',
-        height: '50px',
-        fontFamily: 'var(--primaryFont)',
-        border: `3px solid ${theme.primary}`,
-        transition: '100ms ease-out',
-        '&:hover': {
-            backgroundColor: theme.tertiary,
-            color: theme.secondary,
-            border: `3px solid ${theme.tertiary}`,
-        },
-        '@media (max-width: 600px)': {
-            width: '180px',
-        },
-    }));
 
     const ContactButton = styled(Button)(({ theme: muiTheme }) => ({
         backgroundColor: theme.primary,
@@ -130,18 +108,6 @@ function Landing() {
                         <p>{headerData.desciption}</p>
 
                         <div className='lcr-buttonContainer'>
-                            {/* {headerData.resumePdf && (
-                                <a
-                                    href={headerData.resumePdf}
-                                    download='resume'
-                                    target='_blank'
-                                    rel='noreferrer'
-                                >
-                                    <ResumeButton>
-                                        Download CV
-                                    </ResumeButton>
-                                </a>
-                            )} */}
                             <NavLink
                                 to='/#contacts'
                                 smooth={true}
